@@ -1,0 +1,41 @@
+{
+  "document_metadata": {
+    "company_name": "Taco Bell Corp.",
+    "document_type": "Terms of Use and Promotional Legal Terms",
+    "last_updated_date": "2023-10-01"
+  },
+  "threat_matrix": {
+    "overall_threat_level": "BLOCKER",
+    "forced_arbitration_detected": true,
+    "ai_training_harvesting_detected": false,
+    "moral_rights_waived": true,
+    "liability_shield_for_harm": true,
+    "ip_forfeiture_trap": true,
+    "indemnification_flow_down": true,
+    "unilateral_modification_trap": true,
+    "asymmetric_indemnification": true,
+    "vague_community_guidelines": true,
+    "jurisdiction_trap": {
+      "detected": true,
+      "details": "Requires all legal disputes to be arbitrated individually or litigated exclusively within Orange County, California, imposing substantial travel and legal costs on non-resident consumers."
+    }
+  },
+  "extracted_clauses": [
+    {
+      "violation_type": "Forced Arbitration & Class Action Waiver",
+      "exact_quote": "You and Taco Bell agree that any dispute, claim, or controversy arising out of or relating to these Terms or the Services shall be settled by binding individual arbitration... You waive any right to participate in a class action or class-wide arbitration.",
+      "plain_english_translation": "You surrender your constitutional right to sue in open court or join a class action lawsuit. You must fight them alone in private, binding arbitration."
+    },
+    {
+      "violation_type": "Unilateral Modification Trap",
+      "exact_quote": "Taco Bell reserves the right, in its sole discretion, to modify, update, or replace any part of these Terms at any time without prior individual notice to you.",
+      "plain_english_translation": "Taco Bell can silently alter the contract at any moment, and your continued participation binds you to whatever rules they unilaterally invent."
+    },
+    {
+      "violation_type": "Asymmetric Indemnification",
+      "exact_quote": "You agree to indemnify, defend, and hold harmless Taco Bell, its parent company, subsidiaries, affiliates, officers, directors, and employees from and against any claims, liabilities, damages, losses, and expenses, including reasonable attorney fees.",
+      "plain_english_translation": "If Taco Bell faces legal action due to your submission or use, you are financially forced to pay their defense bills, legal fees, and financial settlements."
+    }
+  ],
+  "strategic_recommendation": "Abandon engagement or participate only under non-sensitive burner credentials. The contract imposes aggressive forced arbitration, unilateral contract shifts, and severe asymmetric financial exposure."
+}
