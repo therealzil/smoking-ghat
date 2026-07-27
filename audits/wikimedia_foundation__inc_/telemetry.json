@@ -1,0 +1,33 @@
+{
+  "entity": "Wikimedia Foundation, Inc.",
+  "auditDate": "June 7, 2023 (Last edited February 21, 2026)",
+  "overallThreatLevel": "WARNING",
+  "threats": [
+    {
+      "category": "Enforced Venue & Choice of Law Trap",
+      "severity": "WARNING",
+      "description": "If you want to sue us, you must travel to San Francisco, California, and use California law, regardless of where you live in the world, unless your local courts explicitly refuse to enforce this clause."
+    },
+    {
+      "category": "Forced Arbitration (Med-Arb Trap)",
+      "severity": "WARNING",
+      "description": "If we accuse you of undisclosed paid editing, you are forced into a binding mediation/arbitration process under the Federal Arbitration Act, splitting the costs, and you waive your right to a trial by jury."
+    },
+    {
+      "category": "Liability Firewalls & Harm Dismissal",
+      "severity": "WARNING",
+      "description": "If our platform causes you severe financial, reputational, or physical harm, the absolute maximum amount of money you can ever recover from us is $1,000."
+    },
+    {
+      "category": "Unilateral Modification Clause",
+      "severity": "WARNING",
+      "description": "We can change these terms, and if you keep using Wikipedia after the notice period, you automatically agree to the new rules. If you don't like them, your only option is to stop using the site."
+    }
+  ],
+  "decayScore": 0.65,
+  "evasionTactics": [
+    "Burying binding Med-Arb terms under the 'Paid Contributions' section",
+    "Using community-led governance as a shield to deflect platform-level liability",
+    "Precedence of English version over all translations"
+  ]
+}

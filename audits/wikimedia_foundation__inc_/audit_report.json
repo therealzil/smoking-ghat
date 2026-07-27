@@ -1,0 +1,72 @@
+{
+  "document_metadata": {
+    "company_name": "Wikimedia Foundation, Inc.",
+    "document_type": "Terms of Use",
+    "last_updated_date": "June 7, 2023 (Last edited February 21, 2026)"
+  },
+  "threat_matrix": {
+    "overall_threat_level": "WARNING",
+    "forced_arbitration_detected": true,
+    "ai_training_harvesting_detected": false,
+    "moral_rights_waived": false,
+    "liability_shield_for_harm": true,
+    "ip_forfeiture_trap": false,
+    "indemnification_flow_down": false,
+    "unilateral_modification_trap": true,
+    "asymmetric_indemnification": false,
+    "vague_community_guidelines": true,
+    "jurisdiction_trap": {
+      "detected": true,
+      "details": "Exclusively San Francisco County, California, USA. This imposes a massive financial and logistical barrier for the global user base, though mitigated by a savings clause for jurisdictions that reject foreign forum selection."
+    }
+  },
+  "extracted_clauses": [
+    {
+      "violation_type": "Enforced Venue & Choice of Law Trap",
+      "exact_quote": "If you seek to file a legal claim against us, you agree to file and resolve it exclusively in a state or federal court located in San Francisco County, California. You also agree that the laws of the State of California and, to the extent applicable, the laws of the United States of America will govern these Terms of Use...",
+      "plain_english_translation": "If you want to sue us, you must travel to San Francisco, California, and use California law, regardless of where you live in the world, unless your local courts explicitly refuse to enforce this clause."
+    },
+    {
+      "violation_type": "Forced Arbitration (Med-Arb Trap)",
+      "exact_quote": "For violations of this section related to undisclosed paid editing, you agree to submit to binding 'Med-Arb' (a 'Marketing Company Mediation') as described in section 14 of these Terms of Use... Marketing Company Mediations are subject to and governed by the Federal Arbitration Act to the extent that the mediator becomes an arbitrator.",
+      "plain_english_translation": "If we accuse you of undisclosed paid editing, you are forced into a binding mediation/arbitration process under the Federal Arbitration Act, splitting the costs, and you waive your right to a trial by jury."
+    },
+    {
+      "violation_type": "Liability Firewalls & Harm Dismissal",
+      "exact_quote": "The Wikimedia Foundation will not be liable to you or to any other party for any direct, indirect, incidental, special, consequential or exemplary damages... In no event shall our liability exceed one thousand U.S. dollars (US$1,000.00) in aggregate.",
+      "plain_english_translation": "If our platform causes you severe financial, reputational, or physical harm, the absolute maximum amount of money you can ever recover from us is $1,000."
+    },
+    {
+      "violation_type": "Unilateral Modification Clause",
+      "exact_quote": "Because it may be necessary to modify these Terms of Use from time to time... Your continued use of our services after the new Terms of Use become official following the notice and review period constitutes an acceptance of these Terms of Use on your part.",
+      "plain_english_translation": "We can change these terms, and if you keep using Wikipedia after the notice period, you automatically agree to the new rules. If you don't like them, your only option is to stop using the site."
+    }
+  ],
+  "strategic_recommendation": "Engage with caution. While the Wikimedia Foundation operates under a non-profit, open-source ethos, its Terms of Use still contain standard corporate shields including a $1,000 liability cap, a San Francisco venue lock, and a targeted binding arbitration (Med-Arb) trap for paid editors. Users should air-gap their real-world identities from their accounts to mitigate jurisdictional and legal exposure.",
+  "tactical_search_extension": {
+    "sub_link_harvesting": true,
+    "statutory_cross_check": [
+      "FAA_1_SEC_2",
+      "CAL_CIV_CODE_1670.5",
+      "EU_DSA_ART_20"
+    ],
+    "asymmetry_weight": 0.65,
+    "target_evasion_tactics": [
+      "Burying binding Med-Arb terms under the 'Paid Contributions' section",
+      "Using community-led governance as a shield to deflect platform-level liability",
+      "Precedence of English version over all translations"
+    ]
+  },
+  "consumer_sovereign_blueprint": {
+    "cryptographic_version_locking": "Deploy a decentralized Git-based tracking system (e.g., ToS-Lock) that cryptographically hashes the Wikimedia Terms of Use. Any local browser extension will block editing or contribution if the hash of the active ToS deviates from the user's signed version-lock, forcing an explicit manual review of diffs before re-enabling write access.",
+    "decentralized_venue": "Leverage the savings clause in Section 14 ('If choice of forum clauses... are not accepted by the courts where you normally reside...'). Users should route disputes through local consumer protection forums in jurisdictions like the EU (under Brussels I bis) or UK, completely bypassing the San Francisco venue lock by demonstrating local statutory non-excludability.",
+    "data_sovereignty": "Utilize client-side cryptographic signing for all wiki contributions. While licensing content under CC BY-SA 4.0, users should append a cryptographic signature to their edits, asserting authorship and reserving the right to audit downstream commercial AI scrapers for compliance with attribution requirements.",
+    "automated_statutory_confrontation": "Implement an automated telemetry scanner that monitors Wikimedia Office Actions and local admin blocks. If a block violates procedural fairness under the EU Digital Services Act (DSA) or local consumer laws, the tool auto-generates and files a formal Article 20 DSA complaint or local statutory grievance."
+  },
+  "weaponized_accountability": {
+    "mass_arbitration_trust": "For users targeted under the 'Marketing Company Mediation' (Med-Arb) clause, coordinate a Mass Arbitration Trust. If Wikimedia attempts to enforce Med-Arb against a class of editors, the trust will file hundreds of individual mediation demands simultaneously. Since Wikimedia must split mediation fees equally, this will trigger millions in upfront administrative fees, forcing them to settle or abandon the predatory Med-Arb framework.",
+    "sovereign_infrastructure_fund": "Channel any recovered statutory damages or settlement funds from DSA violations or improper bans into a Sovereign Off-Grid Infrastructure Fund. This fund will finance decentralized IPFS-based mirrors of Wikipedia database dumps, hosted on solar-powered mesh networks, ensuring public knowledge remains accessible completely independent of the Wikimedia Foundation's servers.",
+    "open_source_defense_dao": "Establish the 'WikiSovereign DAO' to pool resources and deploy automated legal defense smart contracts. The DAO will provide automated legal representation and fund defense costs for editors facing retaliatory legal actions, non-US jurisdiction threats, or arbitrary global bans by the Foundation.",
+    "open_sourcing_truth_engine": "Launch an automated, public-facing 'Truth Engine' that continuously scrapes, diffs, and cryptographically signs every update to Wikimedia's auxiliary policies (UCoC, Office Action Policy, etc.). This prevents 'stealth updates' to the terms and provides a tamper-proof ledger of unilateral changes for use in court."
+  }
+}
