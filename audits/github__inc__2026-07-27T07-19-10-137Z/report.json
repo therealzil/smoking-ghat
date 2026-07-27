@@ -1,0 +1,51 @@
+{
+  "document_metadata": {
+    "company_name": "GitHub, Inc.",
+    "document_type": "Terms of Service",
+    "last_updated_date": "April 27, 2026"
+  },
+  "threat_matrix": {
+    "overall_threat_level": "BLOCKER",
+    "forced_arbitration_detected": false,
+    "ai_training_harvesting_detected": true,
+    "moral_rights_waived": true,
+    "liability_shield_for_harm": true,
+    "ip_forfeiture_trap": true,
+    "indemnification_flow_down": true,
+    "unilateral_modification_trap": true,
+    "asymmetric_indemnification": true,
+    "vague_community_guidelines": true,
+    "jurisdiction_trap": {
+      "detected": true,
+      "details": "Exclusive jurisdiction and venue are locked to the courts of the City and County of San Francisco, California. This creates a massive financial and logistical barrier for any international or non-US users seeking legal recourse."
+    }
+  },
+  "extracted_clauses": [
+    {
+      "violation_type": "AI Data Harvesting",
+      "exact_quote": "You grant GitHub and our Affiliates the right to store, host, archive, parse, display, and make copies of Your Content as necessary to provide, develop, and improve the Service, including by training AI Features, and for the purpose of training, developing, and improving artificial intelligence and machine learning models and technologies of our Affiliates.",
+      "plain_english_translation": "GitHub and its parent company Microsoft reserve the right to use any code or content you upload to train their proprietary AI models without paying you or seeking further permission."
+    },
+    {
+      "violation_type": "AI Data Harvesting",
+      "exact_quote": "You also grant GitHub and its Affiliates a license to collect and use your Inputs and Outputs to develop, train and improve artificial intelligence and machine learning models and technologies including those that power AI Features, unless (a) you opt out through your account settings...",
+      "plain_english_translation": "Any prompts, code snippets, or conversation history you feed into Copilot or other AI features will be harvested to train Microsoft/GitHub AI models by default, unless you manually find and toggle the opt-out setting."
+    },
+    {
+      "violation_type": "IP Forfeiture Traps",
+      "exact_quote": "By using automated means to access, collect, or otherwise use (“Access”) any publicly accessible Content from the Service for the purpose of developing or training any commercially available artificial intelligence model... you hereby waive any and all policies, terms, conditions, or contractual provisions governing products, services, websites or datasets you own or operate that would otherwise prohibit, restrict, or place conditions upon GitHub's Access to any publicly accessible data... associated with your products or services...",
+      "plain_english_translation": "If you scrape public GitHub data to train your own commercial AI, you automatically forfeit your own website's terms of service, allowing GitHub/Microsoft to scrape your products and data completely unrestricted."
+    },
+    {
+      "violation_type": "Moral Rights Waivers",
+      "exact_quote": "You retain all moral rights to Your Content... However, you waive these rights and agree not to assert them against us or our Affiliates, to enable GitHub and our Affiliates to reasonably exercise the rights granted in Section D.4...",
+      "plain_english_translation": "You give up the right to object to how GitHub or Microsoft modifies, slices, or attributes your code when they use it, effectively stripping you of your creative integrity rights."
+    },
+    {
+      "violation_type": "Indemnification Flow Down",
+      "exact_quote": "Your indemnity obligations in Section Q apply to your use of AI Features and Output, including claims arising from Output you incorporate into your products or services.",
+      "plain_english_translation": "If GitHub Copilot generates plagiarized or buggy code, and you use it in your software, you are solely responsible. If a third party sues over that code, you must pay for GitHub's legal defense and any resulting damages."
+    }
+  ],
+  "strategic_recommendation": "Engage with extreme caution. Immediately opt out of AI training in your account settings. If you are an AI developer or organization with over 700M users, do not scrape GitHub under any circumstances due to the toxic 'Access Reciprocity' poison pill. For sensitive proprietary code, air-gap your repositories or migrate to a self-hosted Git solution."
+}
