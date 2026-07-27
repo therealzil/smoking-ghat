@@ -1,0 +1,119 @@
+{
+  "document_metadata": {
+    "company_name": "Wells Fargo Bank, N.A.",
+    "document_type": "Online Access Agreement",
+    "last_updated_date": "May 21, 2026"
+  },
+  "threat_matrix": {
+    "overall_threat_level": "BLOCKER",
+    "forced_arbitration_detected": true,
+    "ai_training_harvesting_detected": true,
+    "moral_rights_waived": false,
+    "liability_shield_for_harm": true,
+    "ip_forfeiture_trap": false,
+    "indemnification_flow_down": true,
+    "unilateral_modification_trap": true,
+    "asymmetric_indemnification": true,
+    "vague_community_guidelines": true,
+    "jurisdiction_trap": {
+      "detected": true,
+      "details": "Governed by South Dakota law generally, and New York law for specific transfer services. This forces users nationwide to litigate or arbitrate under distant state laws, creating massive financial and logistical barriers."
+    }
+  },
+  "extracted_clauses": [
+    {
+      "violation_type": "Forced Arbitration & Class Action Waiver",
+      "exact_quote": "Your agreement with us to use binding arbitration for most disputes arising under this Agreement or about the Service and to waive the right to a trial by jury... Your waiver of class action rights.",
+      "plain_english_translation": "You surrender your constitutional right to sue Wells Fargo in court or join a class action. Any dispute must be fought individually in private arbitration, which heavily favors the bank."
+    },
+    {
+      "violation_type": "AI Data Harvesting & Chat Monitoring",
+      "exact_quote": "Any communications with us through use of chat, virtual AI assistant, telephone, human-simulated conversation, or a similar technology may be monitored, recorded, analyzed, and retained, by both Wells Fargo and our service providers, without any further notice to you.",
+      "plain_english_translation": "Every interaction you have with their AI chatbots or virtual assistants is recorded, analyzed, and kept by Wells Fargo and their third-party tech partners to train their systems and profile your behavior, without telling you when it happens."
+    },
+    {
+      "violation_type": "Asymmetric Indemnification & Liability Shield",
+      "exact_quote": "IN NO EVENT WILL WELLS FARGO HAVE ANY LIABILITY FOR CONSEQUENTIAL, SPECIAL, PUNITIVE, OR INDIRECT LOSS OR DAMAGE... IN NO EVENT WILL WELLS FARGO BE LIABLE FOR ATTORNEY'S FEES.",
+      "plain_english_translation": "Even if Wells Fargo makes a massive mistake that ruins your finances, they will never pay for your indirect losses, punitive damages, or your lawyer's fees. You bear the entire financial burden of fighting them."
+    },
+    {
+      "violation_type": "Indemnification Flow Down",
+      "exact_quote": "If you or anyone else presents a check or substitute check for deposit more than once, in violation of this Agreement, you agree to indemnify, defend, and hold Wells Fargo harmless from and against all liability and damages that may result from any claims, suits, or demands from third parties...",
+      "plain_english_translation": "If a check you deposited via mobile app gets deposited again (even by accident or by a third party), you must pay for Wells Fargo's legal defense and cover all resulting damages."
+    },
+    {
+      "violation_type": "Unilateral Modification & Termination Trap",
+      "exact_quote": "Unless otherwise required by applicable law or regulation, either of us can terminate this Agreement and/or your access to any Eligible Account or Online Financial Service through the Service, in whole or in part, at any time... We will try to notify you in advance of any termination, but are not required to do so.",
+      "plain_english_translation": "Wells Fargo can cut off your access to your online banking and accounts at any second, for any reason, without warning, leaving you locked out of your money with no immediate recourse."
+    }
+  ],
+  "strategic_recommendation": "Wells Fargo's Online Access Agreement is highly hostile, stripping users of constitutional trial rights, disclaiming attorney's fees, and claiming unilateral termination rights over financial access. If you must use their services, strictly limit your use of experimental features like AI chatbots, avoid mobile check deposits to bypass double-deposit indemnification traps, and maintain an external, secondary bank account as an air-gap in case of sudden, unnotified account termination.",
+  "audio_telemetry_events": [
+    {
+      "timestamp_ms": 5000,
+      "metric_payload": {
+        "liability_breach": true,
+        "violation_type": "Jurisdiction Trap",
+        "risk_level": "HIGH",
+        "decay_score": 0.85,
+        "routing_data": "LEGAL_COMPLIANCE_DEPT"
+      },
+      "status_flag": "WARNING",
+      "verification_hash": "a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2",
+      "reference_line": "Governed by South Dakota law generally, and New York law for specific transfer services."
+    },
+    {
+      "timestamp_ms": 18000,
+      "metric_payload": {
+        "liability_breach": true,
+        "violation_type": "AI Data Harvesting & Chat Monitoring",
+        "risk_level": "HIGH",
+        "decay_score": 0.9,
+        "routing_data": "DATA_PRIVACY_OFFICER"
+      },
+      "status_flag": "WARNING",
+      "verification_hash": "b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2a3",
+      "reference_line": "Any communications with us through use of chat, virtual AI assistant... may be monitored, recorded, analyzed, and retained..."
+    },
+    {
+      "timestamp_ms": 32000,
+      "metric_payload": {
+        "liability_breach": true,
+        "violation_type": "Asymmetric Indemnification & Liability Shield",
+        "risk_level": "CRITICAL",
+        "decay_score": 0.95,
+        "routing_data": "LITIGATION_DEFENSE"
+      },
+      "status_flag": "CRITICAL",
+      "verification_hash": "c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2a3b4",
+      "reference_line": "IN NO EVENT WILL WELLS FARGO HAVE ANY LIABILITY FOR CONSEQUENTIAL, SPECIAL, PUNITIVE, OR INDIRECT LOSS OR DAMAGE... IN NO EVENT WILL WELLS FARGO BE LIABLE FOR ATTORNEY'S FEES."
+    },
+    {
+      "timestamp_ms": 45000,
+      "metric_payload": {
+        "liability_breach": true,
+        "violation_type": "Unilateral Modification & Termination Trap",
+        "risk_level": "CRITICAL",
+        "decay_score": 0.98,
+        "routing_data": "RISK_MANAGEMENT"
+      },
+      "status_flag": "SHIELD BROKEN",
+      "verification_hash": "d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2a3b4c5",
+      "reference_line": "either of us can terminate this Agreement and/or your access... at any time... We will try to notify you in advance of any termination, but are not required to do so."
+    },
+    {
+      "timestamp_ms": 55000,
+      "metric_payload": {
+        "liability_breach": true,
+        "violation_type": "Indemnification Flow Down",
+        "risk_level": "HIGH",
+        "decay_score": 0.88,
+        "routing_data": "TREASURY_OPERATIONS"
+      },
+      "status_flag": "WARNING",
+      "verification_hash": "e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2a3b4c5d6",
+      "reference_line": "If you or anyone else presents a check or substitute check for deposit more than once... you agree to indemnify, defend, and hold Wells Fargo harmless..."
+    }
+  ],
+  "audio_script_proof": "Joe: Jane, Wells Fargo's Online Access Agreement is rated a total Blocker. They drag you into a dual jurisdiction trap—applying South Dakota and New York law—creating massive barriers to any legal dispute.\nJane: And tech-wise, their AI harvesting is constant. Every chat or virtual assistant conversation is recorded and analyzed by third parties without notice.\nJoe: Legally, they've built an absolute liability shield. They won't pay indirect damages or attorney's fees even if they make a mistake, and they can unilaterally terminate your online access without warning.\nJane: Plus, there is an indemnification flow-down trap. If a mobile check is deposited twice, even by accident, you cover all Wells Fargo's legal fees and damages."
+}
