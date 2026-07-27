@@ -1,0 +1,60 @@
+{
+  "document_metadata": {
+    "company_name": "Anthropic",
+    "document_type": "Consumer Terms of Service Updates",
+    "last_updated_date": "March 16, 2026"
+  },
+  "threat_matrix": {
+    "overall_threat_level": "CRITICAL",
+    "forced_arbitration_detected": false,
+    "ai_training_harvesting_detected": false,
+    "moral_rights_waived": false,
+    "liability_shield_for_harm": true,
+    "ip_forfeiture_trap": false,
+    "indemnification_flow_down": true,
+    "unilateral_modification_trap": true,
+    "asymmetric_indemnification": true,
+    "vague_community_guidelines": true,
+    "jurisdiction_trap": {
+      "detected": false,
+      "details": "No specific jurisdiction or venue is detailed in this update summary, though standard terms typically enforce Delaware jurisdiction."
+    }
+  },
+  "extracted_clauses": [
+    {
+      "violation_type": "Unilateral Modification Trap",
+      "exact_quote": "This support article covers the changes to our Consumer Terms of Service that take effect April 15, 2024 .",
+      "plain_english_translation": "We can rewrite the rules of our relationship whenever we want, and your continued use of the service after the effective date constitutes automatic acceptance of our new terms."
+    },
+    {
+      "violation_type": "Liability Shield Expansion",
+      "exact_quote": "We updated the definition of \"Providers\" to include our affiliates, licensors, distributors, and service providers. We also clarified that our Providers are intended third-party beneficiaries of specified disclaimers and limitations of liability.",
+      "plain_english_translation": "We are expanding our legal shield so that you cannot sue or hold liable any of our partners, parent companies, subcontractors, or distributors. They get all the legal protections we do, leaving you with zero recourse against the entire supply chain."
+    },
+    {
+      "violation_type": "Enforced Software Control",
+      "exact_quote": "We clarified our terms about software updates, including that we may offer automatic updates to our software to ensure our users have access to the latest version.",
+      "plain_english_translation": "We reserve the right to silently modify, update, or downgrade the software running on your device without your explicit consent, potentially altering functionality or privacy settings."
+    }
+  ],
+  "strategic_recommendation": "Proceed with extreme caution. The unilateral modification of terms and the massive expansion of the liability shield to third-party 'Providers' significantly reduces user recourse. Air-gap highly sensitive workflows and monitor future policy changes closely.",
+  "tactical_search_extension": {
+    "sub_link_harvesting": true,
+    "statutory_cross_check": [
+      "UCC_ARTICLE_2",
+      "FTC_ACT_SECTION_5",
+      "CCPA_CPRA"
+    ],
+    "asymmetry_weight": 0.85,
+    "target_evasion_tactics": [
+      "Burying expanded liability definitions in auxiliary update summaries",
+      "Using friendly framing ('Enhanced clarity', 'With some help from Claude') to mask predatory legal expansions"
+    ]
+  },
+  "consumer_sovereign_blueprint": {
+    "cryptographic_version_locking": "Implement a local proxy or client-side wrapper that hashes the active Terms of Service and halts API calls or application execution if the remote ToS hash changes, forcing a manual review before re-opt-in.",
+    "decentralized_venue": "Establish a multi-lateral user union that collectively rejects unilateral updates, forcing disputes into decentralized arbitration or local small claims courts where class action waivers are less enforceable.",
+    "data_sovereignty": "Deploy local, open-source models where possible to bypass the 'Provider' ecosystem entirely, ensuring zero telemetry or data leakage to Anthropic's newly shielded network of affiliates and distributors.",
+    "automated_statutory_confrontation": "Utilize automated legal scanners to parse every updated sub-link and auto-generate opt-out notices for arbitration or unilateral changes within the standard 30-day window."
+  }
+}
