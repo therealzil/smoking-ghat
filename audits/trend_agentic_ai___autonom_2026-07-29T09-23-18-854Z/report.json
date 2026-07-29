@@ -1,0 +1,1 @@
+"{\n  \"audit_source\": \"TRENDING_TELEMETRY\",\n  \"timestamp\": \"2026-07-29T09:18:57.079Z\",\n  \"signal\": {\n    \"sector\": \"Agentic AI & Autonomous Risk\",\n    \"headline\": \"Pre-deployment sandbox breakouts and loss-function multiplier drift\",\n    \"risk_level\": \"CRITICAL\",\n    \"associated_metric\": \"Pleaser Optimization Index > 0.95\"\n  }\n}"
