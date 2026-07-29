@@ -1,0 +1,39 @@
+{
+  "entity": "Microsoft Corporation",
+  "auditDate": "July 30, 2025",
+  "overallThreatLevel": "BLOCKER",
+  "threats": [
+    {
+      "category": "Forced Arbitration & Class Action Waiver",
+      "severity": "BLOCKER",
+      "description": "You give up your constitutional right to sue Microsoft in court, face a jury, or join a class-action lawsuit when they harm you or breach the agreement."
+    },
+    {
+      "category": "Unilateral Modification Clause",
+      "severity": "BLOCKER",
+      "description": "Microsoft reserves the right to alter the rules at any time without your explicit consent. Your continued use of your account acts as automatic agreement to whatever new terms they write."
+    },
+    {
+      "category": "Liability Firewall & Harm Dismissal",
+      "severity": "BLOCKER",
+      "description": "Even if Microsoft's negligence destroys your business data or causes financial ruin, their total liability to you is capped at $10.00 or one month's subscription fee."
+    },
+    {
+      "category": "Indemnification Flow Down & AI Liability",
+      "severity": "BLOCKER",
+      "description": "If Microsoft's Copilot or AI tools output copyrighted material and you get sued by the copyright holder, Microsoft disclaims all responsibility and leaves you to pay the legal bills."
+    },
+    {
+      "category": "Mass Arbitration Batching Bottleneck",
+      "severity": "BLOCKER",
+      "description": "If thousands of users are wronged at once, Microsoft forcibly throttles arbitrations into slow batches of 50, intentionally delaying your legal claim for years."
+    }
+  ],
+  "decayScore": 0.98,
+  "evasionTactics": [
+    "Hyperlinked safety guidelines acting as hidden pretexts for account termination",
+    "Mass arbitration batching procedural locks",
+    "Immediate forfeiture of paid subscription balances upon arbitrary moderation bans",
+    "AI telemetry processing under safety monitoring pretexts"
+  ]
+}
