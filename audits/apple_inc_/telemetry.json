@@ -1,0 +1,33 @@
+{
+  "entity": "Apple Inc.",
+  "auditDate": "Copyright 2026",
+  "overallThreatLevel": "BLOCKER",
+  "threats": [
+    {
+      "category": "Unilateral Modification / Service Disablement",
+      "severity": "BLOCKER",
+      "description": "Apple or the app developer can modify, break, or shut down app functionality and connected services whenever they want, without telling you in advance and without owing you a dime."
+    },
+    {
+      "category": "Asymmetric Liability Cap / Harm Dismissal",
+      "severity": "BLOCKER",
+      "description": "No matter how much financial, operational, or personal damage their software failure causes, their max legal payout to you is capped at fifty bucks."
+    },
+    {
+      "category": "AI Data Harvesting / Telemetry Extraction",
+      "severity": "BLOCKER",
+      "description": "They scrub personal identifiers from your device telemetry and system usage data to fuel the training and optimization of their proprietary algorithms and downstream technologies."
+    },
+    {
+      "category": "Enforced Venue & Jurisdiction Trap",
+      "severity": "BLOCKER",
+      "description": "You give up the right to sue them in your local court; you must travel to Santa Clara County, California to fight any legal battle against Apple."
+    }
+  ],
+  "decayScore": 0.92,
+  "evasionTactics": [
+    "Incorporation of auxiliary Usage Rules via sub-links",
+    "Arbitrary $50 liability cap to render civil litigation non-viable",
+    "Broad telemetry harvesting under the guise of product improvement"
+  ]
+}

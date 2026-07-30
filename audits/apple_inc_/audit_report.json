@@ -1,0 +1,72 @@
+{
+  "document_metadata": {
+    "company_name": "Apple Inc.",
+    "document_type": "Licensed Application End User License Agreement (Standard EULA)",
+    "last_updated_date": "Copyright 2026"
+  },
+  "threat_matrix": {
+    "overall_threat_level": "BLOCKER",
+    "forced_arbitration_detected": false,
+    "ai_training_harvesting_detected": true,
+    "moral_rights_waived": false,
+    "liability_shield_for_harm": true,
+    "ip_forfeiture_trap": false,
+    "indemnification_flow_down": false,
+    "unilateral_modification_trap": true,
+    "asymmetric_indemnification": true,
+    "vague_community_guidelines": false,
+    "jurisdiction_trap": {
+      "detected": true,
+      "details": "Mandates exclusive personal jurisdiction in the courts located within Santa Clara County, California for US residents. Imposes significant travel and litigation costs on non-California users attempting to enforce legal rights."
+    }
+  },
+  "extracted_clauses": [
+    {
+      "violation_type": "Unilateral Modification / Service Disablement",
+      "exact_quote": "Licensor reserves the right to change, suspend, remove, disable or impose access restrictions or limits on any External Services at any time without notice or liability to you.",
+      "plain_english_translation": "Apple or the app developer can modify, break, or shut down app functionality and connected services whenever they want, without telling you in advance and without owing you a dime."
+    },
+    {
+      "violation_type": "Asymmetric Liability Cap / Harm Dismissal",
+      "exact_quote": "In no event shall Licensor’s total liability to you for all damages (other than as may be required by applicable law in cases involving personal injury) exceed the amount of fifty dollars ($50.00).",
+      "plain_english_translation": "No matter how much financial, operational, or personal damage their software failure causes, their max legal payout to you is capped at fifty bucks."
+    },
+    {
+      "violation_type": "AI Data Harvesting / Telemetry Extraction",
+      "exact_quote": "Licensor may use this information, as long as it is in a form that does not personally identify you, to improve its products or to provide services or technologies to you.",
+      "plain_english_translation": "They scrub personal identifiers from your device telemetry and system usage data to fuel the training and optimization of their proprietary algorithms and downstream technologies."
+    },
+    {
+      "violation_type": "Enforced Venue & Jurisdiction Trap",
+      "exact_quote": "You and Apple agree to submit to the personal and exclusive jurisdiction of the courts located within the county of Santa Clara, California, to resolve any dispute or claim arising from this Agreement.",
+      "plain_english_translation": "You give up the right to sue them in your local court; you must travel to Santa Clara County, California to fight any legal battle against Apple."
+    }
+  ],
+  "strategic_recommendation": "AIR-GAP OR CONTAINERIZE: Software governed by this agreement strips user recourse via a $50 liability ceiling, claims broad non-consensual telemetry rights, and reserves unilateral powers to kill app services. Run all such applications inside strict, sandboxed isolated network environments.",
+  "tactical_search_extension": {
+    "sub_link_harvesting": true,
+    "statutory_cross_check": [
+      "UCC_ARTICLE_2",
+      "CALIFORNIA_CIVIL_CODE_1670_5",
+      "MAGNUSON_MOSS_WARRANTY_ACT"
+    ],
+    "asymmetry_weight": 0.92,
+    "target_evasion_tactics": [
+      "Incorporation of auxiliary Usage Rules via sub-links",
+      "Arbitrary $50 liability cap to render civil litigation non-viable",
+      "Broad telemetry harvesting under the guise of product improvement"
+    ]
+  },
+  "consumer_sovereign_blueprint": {
+    "cryptographic_version_locking": "Cryptographically digest and lock the exact Standard EULA commit hash locally at app installation, blocking silent auxiliary updates and requiring explicit user signature before new terms bind execution.",
+    "decentralized_venue": "Bypass forced Santa Clara venue requirements by initiating statutory consumer claims in local small claims courts under state non-waivable consumer protection acts.",
+    "data_sovereignty": "Enforce outbound local firewalls to sinkhole telemetry and system diagnostic pings, preventing anonymized payload harvesting for corporate ML training.",
+    "automated_statutory_confrontation": "Deploy real-time network auditors to detect unauthorized feature deprecations and auto-issue statutory breach notices challenging the $50 liability cap under unconscionability statutes."
+  },
+  "weaponized_accountability": {
+    "mass_arbitration_trust": "Assemble synchronized class actions and statutory complaint trusts to weaponize localized small-claims filings across thousands of jurisdictions simultaneously.",
+    "sovereign_infrastructure_fund": "Pool recovered damages into building sovereign, open-source application distribution channels independent of walled-garden store infrastructures.",
+    "open_source_defense_dao": "Maintain a smart-contract legal defense DAO that automates counter-litigation funding for consumers targeting abusive unconscionable contract terms.",
+    "open_sourcing_truth_engine": "Maintain an immutable, public ledger tracking real-time cryptographic diffs of all sub-linked developer policies and App Store rules to instantly expose stealth contract modifications."
+  }
+}
