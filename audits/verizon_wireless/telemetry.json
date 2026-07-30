@@ -1,0 +1,33 @@
+{
+  "entity": "Verizon Wireless",
+  "auditDate": "June 16, 2026",
+  "overallThreatLevel": "BLOCKER",
+  "threats": [
+    {
+      "category": "Forced Arbitration & Mass Filing Neutralization Trap",
+      "severity": "BLOCKER",
+      "description": "You give up your right to sue in court or join class actions. If thousands of users are harmed simultaneously, Verizon forces claims into slow-motion batching stages of 80 to 100 cases at a time, effectively blocking your access to justice for years."
+    },
+    {
+      "category": "Unilateral Modification Trap",
+      "severity": "BLOCKER",
+      "description": "Verizon can rewrite the contract or raise prices whenever they want. In some cases (like Home Internet Exhibit terms), they explicitly claim the right to change terms with zero advance notice."
+    },
+    {
+      "category": "Liability Firewall & Harm Dismissal",
+      "severity": "BLOCKER",
+      "description": "If a hacker SIM-swaps your phone line and steals your bank account or cryptocurrency, Verizon completely disclaims financial responsibility, even if their own employee or system allowed the unauthorized account change."
+    },
+    {
+      "category": "Asymmetric Collection Fee & Indemnification Flow Down",
+      "severity": "BLOCKER",
+      "description": "If you owe money or fall behind, Verizon slaps you with up to an 18% debt collection penalty fee on top of late fees, while capping their own liability to strictly direct basic damages."
+    }
+  ],
+  "decayScore": 0.96,
+  "evasionTactics": [
+    "Staggered multi-stage bellwether batching to frustrate mass arbitration administrative fees.",
+    "Informal dispute pre-conditions requiring full account detail disclosures before filing.",
+    "Incorporation of auxiliary terms across external links to conceal unannounced price hikes and fee recoveries."
+  ]
+}
