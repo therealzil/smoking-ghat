@@ -17,63 +17,62 @@
     "vague_community_guidelines": true,
     "jurisdiction_trap": {
       "detected": true,
-      "details": "Mandates state or federal courts in King County, Washington, for any non-arbitrated litigation, while binding U.S. residents to individual or batched AAA arbitration governed by the Federal Arbitration Act, creating immense travel, administrative, and logistical financial barriers for average consumers."
+      "details": "Mandates exclusive venue and jurisdiction in state or federal courts in King County, Washington, for non-arbitrated claims, imposing steep travel and procedural costs on distant consumers."
     }
   },
   "extracted_clauses": [
     {
-      "violation_type": "Forced Arbitration & Class Action Waiver",
-      "exact_quote": "If you live in (or, if a business, your principal place of business is in) the United States, you and we agree to binding individual arbitration before the American Arbitration Association ('AAA') under the Federal Arbitration Act ('FAA'), and not to sue in court in front of a judge or jury. Class action lawsuits, class-wide arbitrations, private attorney-general actions, requests for public injunctions, and any other proceeding or request for relief where someone acts in a representative capacity aren't allowed.",
-      "plain_english_translation": "You give up your constitutional right to sue Microsoft in court, face a jury, or join a class-action lawsuit when they harm you or breach the agreement."
+      "violation_type": "Forced Arbitration & Mass Action Throttling",
+      "exact_quote": "You and we agree to binding individual arbitration before the American Arbitration Association ('AAA') under the Federal Arbitration Act ('FAA'), and not to sue in court in front of a judge or jury... Related Cases may only be filed in batches of up to 50 individual arbitrations at a time...",
+      "plain_english_translation": "You waive your constitutional right to a jury trial and class actions. If thousands of users are wronged simultaneously, Microsoft forces arbitration to proceed in slow batches of 50, systematically bottlenecking claims to make mass accountability cost-prohibitive."
     },
     {
-      "violation_type": "Unilateral Modification Clause",
-      "exact_quote": "We may change these Terms at any time, and we'll tell you when we do. Using the Services after the changes become effective means you agree to the new terms. If you don't agree to the new terms, you must stop using the Services, close your Microsoft account...",
-      "plain_english_translation": "Microsoft reserves the right to alter the rules at any time without your explicit consent. Your continued use of your account acts as automatic agreement to whatever new terms they write."
+      "violation_type": "AI Content Harvesting & Asymmetric Indemnification",
+      "exact_quote": "As part of providing the AI services, Microsoft will process and store your inputs to the service as well as output from the service... You are solely responsible for responding to any third-party claims regarding Your use of the AI services in compliance with applicable laws (including, but not limited to, copyright infringement...).",
+      "plain_english_translation": "Microsoft retains, inspects, and stores your AI prompts and outputs. If their AI generates material that breaches copyright laws or infringes IP, Microsoft absolves itself of liability and leaves you solely responsible for legal defense costs and damages."
     },
     {
-      "violation_type": "Liability Firewall & Harm Dismissal",
-      "exact_quote": "If you have any basis for recovering damages (including breach of these Terms), you agree that your exclusive remedy is to recover, from Microsoft or any affiliates, resellers, distributors, Third-Party Apps and Services providers, and vendors, direct damages up to an amount equal to your Services fee for the month during which the loss or breach occurred (or up to $10.00 if the Services are free).",
-      "plain_english_translation": "Even if Microsoft's negligence destroys your business data or causes financial ruin, their total liability to you is capped at $10.00 or one month's subscription fee."
+      "violation_type": "Unilateral License & Content Exploitation Grant",
+      "exact_quote": "To the extent necessary to provide the Services to you and others, to protect you and the Services, and to improve Microsoft products and services, you grant to Microsoft a worldwide and royalty-free intellectual property license to use Your Content...",
+      "plain_english_translation": "You retain theoretical ownership of your content, but grant Microsoft a perpetual, royalty-free, global license to process, modify, and distribute your material under the broad pretext of 'improving' their products and services."
     },
     {
-      "violation_type": "Indemnification Flow Down & AI Liability",
-      "exact_quote": "You are solely responsible for responding to any third-party claims regarding Your use of the AI services in compliance with applicable laws (including, but not limited to, copyright infringement or other claims relating to content output during Your use of the AI services).",
-      "plain_english_translation": "If Microsoft's Copilot or AI tools output copyrighted material and you get sued by the copyright holder, Microsoft disclaims all responsibility and leaves you to pay the legal bills."
+      "violation_type": "Severe Liability Firewall",
+      "exact_quote": "If you have any basis for recovering damages... your exclusive remedy is to recover, from Microsoft or any affiliates... direct damages up to an amount equal to your Services fee for the month during which the loss or breach occurred (or up to $10.00 if the Services are free).",
+      "plain_english_translation": "If Microsoft causes catastrophic data loss, identity theft, or system downtime, their absolute liability is capped at $10.00 or a single month's subscription fee, regardless of actual damages incurred."
     },
     {
-      "violation_type": "Mass Arbitration Batching Bottleneck",
-      "exact_quote": "Related Cases may only be filed in batches of up to 50 individual arbitrations at a time, and those individual arbitrations will be resolved in the following manner... none of the other Related Cases may be filed or prosecuted in arbitration until the first batch of up to 50 individual arbitrations is resolved.",
-      "plain_english_translation": "If thousands of users are wronged at once, Microsoft forcibly throttles arbitrations into slow batches of 50, intentionally delaying your legal claim for years."
+      "violation_type": "Unilateral Modification Trap",
+      "exact_quote": "We may change these Terms at any time, and we'll tell you when we do. Using the Services after the changes become effective means you agree to the new terms.",
+      "plain_english_translation": "Microsoft reserves the right to rewrite the legal contract whenever they choose. Continued access or passive use automatically binds you to their updated conditions without requiring explicit re-execution."
     }
   ],
-  "strategic_recommendation": "ABANDON OR AIR-GAP HIGH-VALUE WORKFLOWS. The agreement systematically strips basic legal rights, caps liability at $10, shifts AI copyright risks onto end users, and uses mass-arbitration throttling clauses to neutralize class action alternatives. Do not store unbacked-up critical IP or high-value business assets within Microsoft's ecosystem.",
+  "strategic_recommendation": "Air-gap critical assets immediately. Use local containerized AI models and self-hosted storage infrastructure to eliminate remote telemetric exposure, bypass batch-arbitration traps, and prevent asymmetric copyright liability exposure.",
   "tactical_search_extension": {
     "sub_link_harvesting": true,
     "statutory_cross_check": [
+      "FAA_SECTION_2",
       "UCC_ARTICLE_2",
-      "REGULATION_E",
-      "FAA_12_USC",
-      "CFPB_CIRCULAR_2022_02"
+      "EU_DSA_ARTICLE_17",
+      "CFPB_CIRCULAR_2022_06"
     ],
-    "asymmetry_weight": 0.98,
+    "asymmetry_weight": 0.96,
     "target_evasion_tactics": [
-      "Hyperlinked safety guidelines acting as hidden pretexts for account termination",
-      "Mass arbitration batching procedural locks",
-      "Immediate forfeiture of paid subscription balances upon arbitrary moderation bans",
-      "AI telemetry processing under safety monitoring pretexts"
+      "Batching caps on mass arbitration demands to exhaust claimant legal funds.",
+      "Auxiliary policy displacement burying enforcement rules behind secondary URLs.",
+      "Total liability caps ($10 ceiling) decoupled from service critical reliance."
     ]
   },
   "consumer_sovereign_blueprint": {
-    "cryptographic_version_locking": "Deploy client-side automated SHA-256 hashing agents across all linked service policy URLs to log and cryptographically verify every modification; automatically reject silent updates by logging cryptographic non-consent notices.",
-    "decentralized_venue": "Bypass FAA arbitration traps by initiating localized small-claims statutory proceedings in home jurisdictions where small-claims waivers are statutorily invalid.",
-    "data_sovereignty": "Enforce client-side zero-knowledge encryption before syncing files to OneDrive or Teams, blinding Microsoft's automated moderation systems and training scrapers.",
-    "automated_statutory_confrontation": "Deploy automated telemetry scanners to audit local system calls, generate immutable log evidence of statutory privacy violations, and automatically transmit legally binding pre-dispute notices."
+    "cryptographic_version_locking": "Deploy an automated client-side proxy that hashes TOS updates, auto-verifies diffs against established baseline signatures, and halts account sync if unverified terms are pushed without explicit key-signed user consent.",
+    "decentralized_venue": "Establish a peer-to-peer contractual counter-notice protocol requiring consumer disputes to default to neutral, open-access decentralized arbitration tribunals rather than corporate-favored AAA structures.",
+    "data_sovereignty": "Enforce mandatory client-side zero-knowledge encryption on all files, documents, and model prompts prior to outbound transport, rendering corporate harvesting pipelines inert.",
+    "automated_statutory_confrontation": "Inject real-time client telemetry monitors that dynamically detect TOS breaches, statutory violations, and unauthorized data retention, automatically compiling court-ready evidence logs."
   },
   "weaponized_accountability": {
-    "mass_arbitration_trust": "Mobilize automated legal confrontation engines to submit tens of thousands of individually verified Notices of Dispute simultaneously, forcing Microsoft to pay massive administrative filing fees upfront.",
-    "sovereign_infrastructure_fund": "Channel proceeds from statutory privacy settlements and arbitration awards into building open-source, self-hosted, off-grid cloud storage and communication protocols.",
-    "open_source_defense_dao": "Establish a legal defense DAO to pool resources and defend users targeted by third-party IP lawsuits caused by Microsoft's AI tools.",
-    "open_sourcing_truth_engine": "Publish real-time cryptographic diffs of all underlying Microsoft sub-agreements and moderation guidelines to expose stealth policy changes to regulatory bodies globally."
+    "mass_arbitration_trust": "Coordinate parallel legal automation protocols to generate tens of thousands of individual arbitration filings simultaneously, bypassing the 50-case batching blockades and overwhelming administrative bandwidth.",
+    "sovereign_infrastructure_fund": "Divert arbitration awards, class settlement proceeds, and statutory damage payouts into community-owned off-grid compute clusters, mesh networks, and localized open-source AI infrastructure.",
+    "open_source_defense_dao": "Fund a decentralized autonomous legal defense organization running automated AI-litigation software to defend end users against corporate IP claims originating from algorithmic hallucinations.",
+    "open_sourcing_truth_engine": "Operationally maintain a public-utility continuous integration pipeline that captures, hashes, and publicly indexes cryptographic diffs of all corporate terms of service in real time to expose hidden changes."
   }
 }

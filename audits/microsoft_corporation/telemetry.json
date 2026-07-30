@@ -4,36 +4,35 @@
   "overallThreatLevel": "BLOCKER",
   "threats": [
     {
-      "category": "Forced Arbitration & Class Action Waiver",
+      "category": "Forced Arbitration & Mass Action Throttling",
       "severity": "BLOCKER",
-      "description": "You give up your constitutional right to sue Microsoft in court, face a jury, or join a class-action lawsuit when they harm you or breach the agreement."
+      "description": "You waive your constitutional right to a jury trial and class actions. If thousands of users are wronged simultaneously, Microsoft forces arbitration to proceed in slow batches of 50, systematically bottlenecking claims to make mass accountability cost-prohibitive."
     },
     {
-      "category": "Unilateral Modification Clause",
+      "category": "AI Content Harvesting & Asymmetric Indemnification",
       "severity": "BLOCKER",
-      "description": "Microsoft reserves the right to alter the rules at any time without your explicit consent. Your continued use of your account acts as automatic agreement to whatever new terms they write."
+      "description": "Microsoft retains, inspects, and stores your AI prompts and outputs. If their AI generates material that breaches copyright laws or infringes IP, Microsoft absolves itself of liability and leaves you solely responsible for legal defense costs and damages."
     },
     {
-      "category": "Liability Firewall & Harm Dismissal",
+      "category": "Unilateral License & Content Exploitation Grant",
       "severity": "BLOCKER",
-      "description": "Even if Microsoft's negligence destroys your business data or causes financial ruin, their total liability to you is capped at $10.00 or one month's subscription fee."
+      "description": "You retain theoretical ownership of your content, but grant Microsoft a perpetual, royalty-free, global license to process, modify, and distribute your material under the broad pretext of 'improving' their products and services."
     },
     {
-      "category": "Indemnification Flow Down & AI Liability",
+      "category": "Severe Liability Firewall",
       "severity": "BLOCKER",
-      "description": "If Microsoft's Copilot or AI tools output copyrighted material and you get sued by the copyright holder, Microsoft disclaims all responsibility and leaves you to pay the legal bills."
+      "description": "If Microsoft causes catastrophic data loss, identity theft, or system downtime, their absolute liability is capped at $10.00 or a single month's subscription fee, regardless of actual damages incurred."
     },
     {
-      "category": "Mass Arbitration Batching Bottleneck",
+      "category": "Unilateral Modification Trap",
       "severity": "BLOCKER",
-      "description": "If thousands of users are wronged at once, Microsoft forcibly throttles arbitrations into slow batches of 50, intentionally delaying your legal claim for years."
+      "description": "Microsoft reserves the right to rewrite the legal contract whenever they choose. Continued access or passive use automatically binds you to their updated conditions without requiring explicit re-execution."
     }
   ],
-  "decayScore": 0.98,
+  "decayScore": 0.96,
   "evasionTactics": [
-    "Hyperlinked safety guidelines acting as hidden pretexts for account termination",
-    "Mass arbitration batching procedural locks",
-    "Immediate forfeiture of paid subscription balances upon arbitrary moderation bans",
-    "AI telemetry processing under safety monitoring pretexts"
+    "Batching caps on mass arbitration demands to exhaust claimant legal funds.",
+    "Auxiliary policy displacement burying enforcement rules behind secondary URLs.",
+    "Total liability caps ($10 ceiling) decoupled from service critical reliance."
   ]
 }
